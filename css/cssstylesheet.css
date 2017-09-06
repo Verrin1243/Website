@@ -1,4 +1,41 @@
-p
+/* using helvetica best to read */
+body
 {
-margin-left: 20%;
+font-family: Helvetica;
+font-size: 100%;
+color: black;
+background-color: #3284C3;
+}
+
+
+h1
+{
+font-family: times;
+font-size: 150%;
+text-align: center;
+text-transform: uppercase;
+}
+
+.texth1
+{
+	font-size: 150%;
+	text-align: center;
+}
+
+h2
+{
+	font-family: serif;
+	font-style: italic;
+	font-size: 200%;
+}
+
+h2::first-word-spacing
+{
+	color: white;
+}
+
+h3
+{
+	font-family: courier;
+	font-size: 250%;
 }
