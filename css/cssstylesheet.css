@@ -3,8 +3,8 @@ body
 {
 font-family: Helvetica;
 font-size: 100%;
-color: black;
-background-color: #3284C3;
+color: #012438;
+background-color: #0973B1;
 }
 
 
@@ -14,8 +14,10 @@ font-family: times;
 font-size: 150%;
 text-align: center;
 text-transform: uppercase;
+color: #BCD8E9;
 }
 
+/* Class for centerlisching text */
 .texth1
 {
 	font-size: 150%;
@@ -27,6 +29,7 @@ h2
 	font-family: serif;
 	font-style: italic;
 	font-size: 200%;
+	color: #BCD8E9;
 }
 
 h2::first-word-spacing
@@ -37,5 +40,6 @@ h2::first-word-spacing
 h3
 {
 	font-family: courier;
+	color: #BCD8E9;
 	font-size: 250%;
 }
