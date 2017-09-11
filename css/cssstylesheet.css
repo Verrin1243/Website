@@ -1,13 +1,31 @@
 /* using helvetica best to read */
 body
+
 {
 font-family: Helvetica;
 font-size: 100%;
 color: #012438;
 background-color: #0973B1;
+margin: 120 px;
 }
 
+ul
+{
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 15%;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
 
+li a
+{
+ display: block;
+ color: white;
+ padding: 10px 20px;
+}
 h1
 {
 font-family: times;
@@ -15,6 +33,7 @@ font-size: 150%;
 text-align: center;
 text-transform: uppercase;
 color: #BCD8E9;
+display: inline-block;
 }
 
 /* Class for centerlisching text */
@@ -42,4 +61,13 @@ h3
 	font-family: courier;
 	color: #BCD8E9;
 	font-size: 250%;
+}
+
+p
+{
+ display: block;
+	margin-top: 12px;
+	margin-bottom: 12px;
+	margin-left: 200px;
+	margin-right: 120px;
 }
